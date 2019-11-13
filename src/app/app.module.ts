@@ -8,9 +8,7 @@ import { NavbarComponent } from './layouts/navbar/navbar.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { NewsComponent } from './partials/news/news.component';
-import { BeforeFooterComponent } from './layouts/before-footer/before-footer.component';
 import { FollowUsComponent } from './layouts/follow-us/follow-us.component';
-import { HttpClient } from 'selenium-webdriver/http';
 
 @NgModule({
   declarations: [
@@ -19,7 +17,6 @@ import { HttpClient } from 'selenium-webdriver/http';
     HeaderComponent,
     FooterComponent,
     NewsComponent,
-    BeforeFooterComponent,
     FollowUsComponent
   ],
   imports: [

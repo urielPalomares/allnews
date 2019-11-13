@@ -24,7 +24,7 @@
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-left">
               <h4 class="text-white">{{ n.title }}</h4>
-              <p class="mb-0 text-white-50">{{ (n.description.length > 50)? (n.description | slice:0:30)+'..':(n.description) }}</p>
+              <p class="mb-0 text-white-50">{{ (n.description.length > 100)? (n.description | slice:0:100)+'..':(n.description) }}</p>
               <hr class="d-none d-lg-block mb-0 ml-0">
             </div>
           </div>
