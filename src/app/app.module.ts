@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { NewsComponent } from './partials/news/news.component';
 import { BeforeFooterComponent } from './layouts/before-footer/before-footer.component';
 import { FollowUsComponent } from './layouts/follow-us/follow-us.component';
+import { HttpClient } from 'selenium-webdriver/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { FollowUsComponent } from './layouts/follow-us/follow-us.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
